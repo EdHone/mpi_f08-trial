@@ -1,0 +1,22 @@
+name = "mpi_f08-trial"
+version = "0.1.0"
+license = "license"
+author = "Ed Hone"
+maintainer = "edwardhone@gmail.com"
+copyright = "Copyright 2024, Ed Hone"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+external-modules = "mpi_f08"
+
+[install]
+library = false
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
+
